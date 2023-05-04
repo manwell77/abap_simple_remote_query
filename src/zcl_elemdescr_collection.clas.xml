@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_ELEMDESCR_COLLECTION</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Element Descriptor Collection</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>ADD</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Add Element Descriptor To Collection</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>COLLECTION</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Standard Table of Element Descriptors</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>EMPTY</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Initializa The Collection</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_BY_INDEX</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get Element Descriptor By Name</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_BY_NAME</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get Element Descriptor By Name</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_ITERATOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Returns an Iterator</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>IS_EMPTY</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Collection is Empty ?</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>REMOVE_BY_INDEX</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Remove Element Descriptor From Collection By Index</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>REMOVE_BY_NAME</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Remove Element Descriptor From Collection By Name</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SIZE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get Size of Collection</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>ADD</CMPNAME>
+     <SCONAME>DESCRIPTOR</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Runtime Type Services</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>ADD</CMPNAME>
+     <SCONAME>NAME</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Data element (semantic domain)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_BY_INDEX</CMPNAME>
+     <SCONAME>ELEMDESCR</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Element Descriptor Structure</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_BY_NAME</CMPNAME>
+     <SCONAME>ELEMDESCR</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Element Descriptor Structure</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_BY_NAME</CMPNAME>
+     <SCONAME>NAME</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Data element (semantic domain)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_ITERATOR</CMPNAME>
+     <SCONAME>ITERATOR</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Element Descriptor Collection Iterator</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>IS_EMPTY</CMPNAME>
+     <SCONAME>IS_EMPTY</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>General Flag</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>REMOVE_BY_NAME</CMPNAME>
+     <SCONAME>NAME</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Data element (semantic domain)</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

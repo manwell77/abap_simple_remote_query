@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCX_DYN_REMOTE_TYPE_BUILDER</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Dynamic Type Builder Exception</DESCRIPT>
+    <CATEGORY>40</CATEGORY>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DATATYPE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Data Type in ABAP Dictionary</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DELEM</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Data element (semantic domain)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>INTTYPE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>ABAP data type (C,D,N,...)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>RFCDEST</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Logical Destination (Specified in Function Call)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>STRUCT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Name of a structure</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_ELEMDESCR_COLL_ITERATOR</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Element Descriptor Collection Iterator</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>COLLECTION</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Element Descriptor Collection</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Iterator Builder</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_INDEX</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get Current Index</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_NEXT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get Next Object</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>HAS_NEXT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Has Next Object</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>COLLECTION</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Element Descriptor Collection</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_INDEX</CMPNAME>
+     <SCONAME>INDEX</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Natural Number</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_NEXT</CMPNAME>
+     <SCONAME>ELEMDESCR</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Element Descriptor Structure</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>HAS_NEXT</CMPNAME>
+     <SCONAME>HAS_NEXT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>General Flag</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

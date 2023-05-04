@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZDYNTYPEBUILDER</ARBGB>
+    <MASTERLANG>E</MASTERLANG>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZDYNTYPEBUILDER</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>unexpected error</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZDYNTYPEBUILDER</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>rfc destination &amp;1 unreachable</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZDYNTYPEBUILDER</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>failed to build structure &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZDYNTYPEBUILDER</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>data type &amp;1 not managed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZDYNTYPEBUILDER</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>internal type &amp;1 not managed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZDYNTYPEBUILDER</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>failed to read details of data element &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZDYNTYPEBUILDER</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>unable to get dynamic field &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZDYNTYPEBUILDER</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>failed to read table &amp;1 on remote destination &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZDYNTYPEBUILDER</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>assign instruction for component &amp;1 failed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZDYNTYPEBUILDER</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>failed to build data dynamically</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZDYNTYPEBUILDER</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>assign instruction failed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZDYNTYPEBUILDER</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>own logical system not defined</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZDYNTYPEBUILDER</ARBGB>
+     <MSGNR>050</MSGNR>
+     <TEXT>rfc destination &amp;1 unreachable/not valid</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZDYNTYPEBUILDER</ARBGB>
+     <MSGNR>051</MSGNR>
+     <TEXT>failed to set textarea editable</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZDYNTYPEBUILDER</ARBGB>
+     <MSGNR>052</MSGNR>
+     <TEXT>failed to set textarea read-only</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZDYNTYPEBUILDER</ARBGB>
+     <MSGNR>053</MSGNR>
+     <TEXT>textarea creation failed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZDYNTYPEBUILDER</ARBGB>
+     <MSGNR>054</MSGNR>
+     <TEXT>container creation failed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZDYNTYPEBUILDER</ARBGB>
+     <MSGNR>055</MSGNR>
+     <TEXT>table &amp;1 not defined on rfc destination &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZDYNTYPEBUILDER</ARBGB>
+     <MSGNR>056</MSGNR>
+     <TEXT>query initial/error reading query</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZDYNTYPEBUILDER</ARBGB>
+     <MSGNR>057</MSGNR>
+     <TEXT>empty selection</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZDYNTYPEBUILDER</ARBGB>
+     <MSGNR>058</MSGNR>
+     <TEXT>alv building/detruction failed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZDYNTYPEBUILDER</ARBGB>
+     <MSGNR>059</MSGNR>
+     <TEXT>remote data structure building failed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZDYNTYPEBUILDER</ARBGB>
+     <MSGNR>060</MSGNR>
+     <TEXT>failed to build field catalog</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>
