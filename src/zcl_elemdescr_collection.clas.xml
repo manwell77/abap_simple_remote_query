@@ -18,8 +18,18 @@
      <DESCRIPT>Add Element Descriptor To Collection</DESCRIPT>
     </SEOCOMPOTX>
     <SEOCOMPOTX>
+     <CMPNAME>ADD</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Add Element Descriptor To Collection</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
      <CMPNAME>COLLECTION</CMPNAME>
      <LANGU>E</LANGU>
+     <DESCRIPT>Standard Table of Element Descriptors</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>COLLECTION</CMPNAME>
+     <LANGU>I</LANGU>
      <DESCRIPT>Standard Table of Element Descriptors</DESCRIPT>
     </SEOCOMPOTX>
     <SEOCOMPOTX>
@@ -28,8 +38,18 @@
      <DESCRIPT>Initializa The Collection</DESCRIPT>
     </SEOCOMPOTX>
     <SEOCOMPOTX>
+     <CMPNAME>EMPTY</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Initializa The Collection</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
      <CMPNAME>GET_BY_INDEX</CMPNAME>
      <LANGU>E</LANGU>
+     <DESCRIPT>Get Element Descriptor By Name</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_BY_INDEX</CMPNAME>
+     <LANGU>I</LANGU>
      <DESCRIPT>Get Element Descriptor By Name</DESCRIPT>
     </SEOCOMPOTX>
     <SEOCOMPOTX>
@@ -38,8 +58,18 @@
      <DESCRIPT>Get Element Descriptor By Name</DESCRIPT>
     </SEOCOMPOTX>
     <SEOCOMPOTX>
+     <CMPNAME>GET_BY_NAME</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Get Element Descriptor By Name</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
      <CMPNAME>GET_ITERATOR</CMPNAME>
      <LANGU>E</LANGU>
+     <DESCRIPT>Returns an Iterator</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_ITERATOR</CMPNAME>
+     <LANGU>I</LANGU>
      <DESCRIPT>Returns an Iterator</DESCRIPT>
     </SEOCOMPOTX>
     <SEOCOMPOTX>
@@ -48,8 +78,18 @@
      <DESCRIPT>Collection is Empty ?</DESCRIPT>
     </SEOCOMPOTX>
     <SEOCOMPOTX>
+     <CMPNAME>IS_EMPTY</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Collection is Empty ?</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
      <CMPNAME>REMOVE_BY_INDEX</CMPNAME>
      <LANGU>E</LANGU>
+     <DESCRIPT>Remove Element Descriptor From Collection By Index</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>REMOVE_BY_INDEX</CMPNAME>
+     <LANGU>I</LANGU>
      <DESCRIPT>Remove Element Descriptor From Collection By Index</DESCRIPT>
     </SEOCOMPOTX>
     <SEOCOMPOTX>
@@ -58,8 +98,18 @@
      <DESCRIPT>Remove Element Descriptor From Collection By Name</DESCRIPT>
     </SEOCOMPOTX>
     <SEOCOMPOTX>
+     <CMPNAME>REMOVE_BY_NAME</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Remove Element Descriptor From Collection By Name</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
      <CMPNAME>SIZE</CMPNAME>
      <LANGU>E</LANGU>
+     <DESCRIPT>Get Size of Collection</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SIZE</CMPNAME>
+     <LANGU>I</LANGU>
      <DESCRIPT>Get Size of Collection</DESCRIPT>
     </SEOCOMPOTX>
    </DESCRIPTIONS>
@@ -72,8 +122,20 @@
     </SEOSUBCOTX>
     <SEOSUBCOTX>
      <CMPNAME>ADD</CMPNAME>
+     <SCONAME>DESCRIPTOR</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Runtime Type Services</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>ADD</CMPNAME>
      <SCONAME>NAME</SCONAME>
      <LANGU>E</LANGU>
+     <DESCRIPT>Data element (semantic domain)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>ADD</CMPNAME>
+     <SCONAME>NAME</SCONAME>
+     <LANGU>I</LANGU>
      <DESCRIPT>Data element (semantic domain)</DESCRIPT>
     </SEOSUBCOTX>
     <SEOSUBCOTX>
@@ -83,9 +145,21 @@
      <DESCRIPT>Element Descriptor Structure</DESCRIPT>
     </SEOSUBCOTX>
     <SEOSUBCOTX>
+     <CMPNAME>GET_BY_INDEX</CMPNAME>
+     <SCONAME>ELEMDESCR</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Element Descriptor Structure</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
      <CMPNAME>GET_BY_NAME</CMPNAME>
      <SCONAME>ELEMDESCR</SCONAME>
      <LANGU>E</LANGU>
+     <DESCRIPT>Element Descriptor Structure</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_BY_NAME</CMPNAME>
+     <SCONAME>ELEMDESCR</SCONAME>
+     <LANGU>I</LANGU>
      <DESCRIPT>Element Descriptor Structure</DESCRIPT>
     </SEOSUBCOTX>
     <SEOSUBCOTX>
@@ -95,9 +169,21 @@
      <DESCRIPT>Data element (semantic domain)</DESCRIPT>
     </SEOSUBCOTX>
     <SEOSUBCOTX>
+     <CMPNAME>GET_BY_NAME</CMPNAME>
+     <SCONAME>NAME</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Data element (semantic domain)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
      <CMPNAME>GET_ITERATOR</CMPNAME>
      <SCONAME>ITERATOR</SCONAME>
      <LANGU>E</LANGU>
+     <DESCRIPT>Element Descriptor Collection Iterator</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_ITERATOR</CMPNAME>
+     <SCONAME>ITERATOR</SCONAME>
+     <LANGU>I</LANGU>
      <DESCRIPT>Element Descriptor Collection Iterator</DESCRIPT>
     </SEOSUBCOTX>
     <SEOSUBCOTX>
@@ -107,9 +193,21 @@
      <DESCRIPT>General Flag</DESCRIPT>
     </SEOSUBCOTX>
     <SEOSUBCOTX>
+     <CMPNAME>IS_EMPTY</CMPNAME>
+     <SCONAME>IS_EMPTY</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>General Flag</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
      <CMPNAME>REMOVE_BY_NAME</CMPNAME>
      <SCONAME>NAME</SCONAME>
      <LANGU>E</LANGU>
+     <DESCRIPT>Data element (semantic domain)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>REMOVE_BY_NAME</CMPNAME>
+     <SCONAME>NAME</SCONAME>
+     <LANGU>I</LANGU>
      <DESCRIPT>Data element (semantic domain)</DESCRIPT>
     </SEOSUBCOTX>
    </DESCRIPTIONS_SUB>

@@ -146,6 +146,132 @@
      <TEXT>failed to build field catalog</TEXT>
     </T100>
    </T100>
+   <I18N_LANGS>
+    <LANGU>I</LANGU>
+   </I18N_LANGS>
+   <T100T>
+    <T100T>
+     <SPRSL>I</SPRSL>
+     <ARBGB>ZDYNTYPEBUILDER</ARBGB>
+    </T100T>
+   </T100T>
+   <T100_TEXTS>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>errore inatteso</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>destinazione remota &amp;1 irraggiungibile</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>fallita generazione struttura &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>tipo dato &amp;1 non gestito</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>tipo dato interno &amp;1 non gestito</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>fallita lettura dettagli elemento dati &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>impossibile leggere campo dinamico &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>fallita lettura tabella &amp;1 su destinazione remota &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>istruzione assign fallita per campo &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>009</MSGNR>
+     <TEXT>fallita creazione dinamica dati</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>fallita istruzione assign</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>sistema logico proprietario non definito</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>050</MSGNR>
+     <TEXT>destinazione rfc &amp;1 irraggiungibile/non valida</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>051</MSGNR>
+     <TEXT>impossibile rendere editabile la textarea</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>052</MSGNR>
+     <TEXT>impossibile inibire l&apos;editazione alla textarea</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>053</MSGNR>
+     <TEXT>fallita creazione textarea</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>054</MSGNR>
+     <TEXT>fallita creazione container</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>055</MSGNR>
+     <TEXT>tabella &amp;1 non definita su destinazione rfc &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>056</MSGNR>
+     <TEXT>query non specificata/errore in fase di lettura query</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>057</MSGNR>
+     <TEXT>selezione vuota</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>058</MSGNR>
+     <TEXT>costruzione/distruzione alv fallita</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>059</MSGNR>
+     <TEXT>fallita costruzione dinamica strutture remote</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>060</MSGNR>
+     <TEXT>fallita costruzione del catalogo campi</TEXT>
+    </item>
+   </T100_TEXTS>
   </asx:values>
  </asx:abap>
 </abapGit>

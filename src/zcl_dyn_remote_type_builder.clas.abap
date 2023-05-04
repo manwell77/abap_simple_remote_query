@@ -5,7 +5,7 @@ class ZCL_DYN_REMOTE_TYPE_BUILDER definition
 
 public section.
 
-  constants OFFSET type STRING value 'OFFSET'. "#EC NOTEXT
+  constants OFFSET type STRING value 'OFFSET' ##NO_TEXT.
 
   class-methods BUILD_DATA
     importing
@@ -86,7 +86,6 @@ public section.
       CX_SY_TABLE_CREATION
       CX_SY_STRUCT_CREATION
       ZCX_DYN_REMOTE_TYPE_BUILDER .
-  type-pools ABAP .
   class-methods GET_COMPONENTS
     importing
       value(I_RFCDEST) type RFCDEST
@@ -111,7 +110,7 @@ public section.
 protected section.
 private section.
 
-  constants RFCTYPE3 type RFCTYPE_D value '3'. "#EC NOTEXT
+  constants RFCTYPE3 type RFCTYPE_D value '3' ##NO_TEXT.
 ENDCLASS.
 
 

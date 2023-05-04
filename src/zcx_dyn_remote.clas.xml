@@ -19,8 +19,18 @@
      <DESCRIPT>CONSTRUCTOR</DESCRIPT>
     </SEOCOMPOTX>
     <SEOCOMPOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
      <CMPNAME>FIELD</CMPNAME>
      <LANGU>E</LANGU>
+     <DESCRIPT>Field Name</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>FIELD</CMPNAME>
+     <LANGU>I</LANGU>
      <DESCRIPT>Field Name</DESCRIPT>
     </SEOCOMPOTX>
     <SEOCOMPOTX>
@@ -29,8 +39,18 @@
      <DESCRIPT>Logical Destination (Specified in Function Call)</DESCRIPT>
     </SEOCOMPOTX>
     <SEOCOMPOTX>
+     <CMPNAME>RFC_DESTINATION</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Logical Destination (Specified in Function Call)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
      <CMPNAME>TABLE</CMPNAME>
      <LANGU>E</LANGU>
+     <DESCRIPT>Name of a structure</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>TABLE</CMPNAME>
+     <LANGU>I</LANGU>
      <DESCRIPT>Name of a structure</DESCRIPT>
     </SEOCOMPOTX>
    </DESCRIPTIONS>

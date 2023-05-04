@@ -195,6 +195,9 @@
     </item>
    </DYNPROS>
    <CUA>
+    <ADM>
+     <ACTCODE>X</ACTCODE>
+    </ADM>
     <STA>
      <RSMPE_STAT>
       <CODE>GS_9001</CODE>
@@ -323,6 +326,18 @@
      <LENGTH>12</LENGTH>
     </item>
    </TPOOL>
+   <I18N_TPOOL>
+    <item>
+     <LANGUAGE>I</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Remote Query</ENTRY>
+       <LENGTH>12</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+   </I18N_TPOOL>
   </asx:values>
  </asx:abap>
 </abapGit>
