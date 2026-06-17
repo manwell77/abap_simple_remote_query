@@ -130,21 +130,6 @@
        <INPUT_FLD>X</INPUT_FLD>
       </RPY_DYFATC>
      </FIELDS>
-     <FLOW_LOGIC>
-      <RPY_DYFLOW>
-       <LINE>process before output.</LINE>
-      </RPY_DYFLOW>
-      <RPY_DYFLOW>
-       <LINE>  module before_output_9001.</LINE>
-      </RPY_DYFLOW>
-      <RPY_DYFLOW/>
-      <RPY_DYFLOW>
-       <LINE>process after input.</LINE>
-      </RPY_DYFLOW>
-      <RPY_DYFLOW>
-       <LINE>  module after_input_9001.</LINE>
-      </RPY_DYFLOW>
-     </FLOW_LOGIC>
     </item>
     <item>
      <HEADER>
@@ -177,26 +162,11 @@
        <INPUT_FLD>X</INPUT_FLD>
       </RPY_DYFATC>
      </FIELDS>
-     <FLOW_LOGIC>
-      <RPY_DYFLOW>
-       <LINE>process before output.</LINE>
-      </RPY_DYFLOW>
-      <RPY_DYFLOW>
-       <LINE>  module before_output_9002.</LINE>
-      </RPY_DYFLOW>
-      <RPY_DYFLOW/>
-      <RPY_DYFLOW>
-       <LINE>process after input.</LINE>
-      </RPY_DYFLOW>
-      <RPY_DYFLOW>
-       <LINE>  module after_input_9002.</LINE>
-      </RPY_DYFLOW>
-     </FLOW_LOGIC>
     </item>
    </DYNPROS>
    <CUA>
     <ADM>
-     <ACTCODE>X</ACTCODE>
+     <PFKCODE>000002</PFKCODE>
     </ADM>
     <STA>
      <RSMPE_STAT>
@@ -210,10 +180,10 @@
      <RSMPE_STAT>
       <CODE>GS_9002</CODE>
       <MODAL>D</MODAL>
-      <ACTCODE>000001</ACTCODE>
-      <PFKCODE>000001</PFKCODE>
+      <ACTCODE>000002</ACTCODE>
+      <PFKCODE>000002</PFKCODE>
       <BUTCODE>0001</BUTCODE>
-      <INT_NOTE>GUI Status Screen 9001</INT_NOTE>
+      <INT_NOTE>GUI Status Screen 9002</INT_NOTE>
      </RSMPE_STAT>
     </STA>
     <FUN>
@@ -228,12 +198,6 @@
       <TEXTNO>001</TEXTNO>
       <TEXT_TYPE>S</TEXT_TYPE>
       <FUN_TEXT>Exit</FUN_TEXT>
-     </RSMPE_FUNT>
-     <RSMPE_FUNT>
-      <CODE>ENTER</CODE>
-      <TEXTNO>001</TEXTNO>
-      <TEXT_TYPE>S</TEXT_TYPE>
-      <FUN_TEXT>ENTER</FUN_TEXT>
      </RSMPE_FUNT>
      <RSMPE_FUNT>
       <CODE>EXIT</CODE>
@@ -263,6 +227,24 @@
       <FUNCODE>CANCEL</FUNCODE>
       <FUNNO>001</FUNNO>
      </RSMPE_PFK>
+     <RSMPE_PFK>
+      <CODE>000002</CODE>
+      <PFNO>03</PFNO>
+      <FUNCODE>BACK</FUNCODE>
+      <FUNNO>001</FUNNO>
+     </RSMPE_PFK>
+     <RSMPE_PFK>
+      <CODE>000002</CODE>
+      <PFNO>12</PFNO>
+      <FUNCODE>EXIT</FUNCODE>
+      <FUNNO>001</FUNNO>
+     </RSMPE_PFK>
+     <RSMPE_PFK>
+      <CODE>000002</CODE>
+      <PFNO>15</PFNO>
+      <FUNCODE>CANCEL</FUNCODE>
+      <FUNNO>001</FUNNO>
+     </RSMPE_PFK>
     </PFK>
     <SET>
      <RSMPE_STAF>
@@ -275,10 +257,6 @@
      </RSMPE_STAF>
      <RSMPE_STAF>
       <STATUS>GS_9001</STATUS>
-      <FUNCTION>ENTER</FUNCTION>
-     </RSMPE_STAF>
-     <RSMPE_STAF>
-      <STATUS>GS_9001</STATUS>
       <FUNCTION>EXIT</FUNCTION>
      </RSMPE_STAF>
      <RSMPE_STAF>
@@ -288,10 +266,6 @@
      <RSMPE_STAF>
       <STATUS>GS_9002</STATUS>
       <FUNCTION>CANCEL</FUNCTION>
-     </RSMPE_STAF>
-     <RSMPE_STAF>
-      <STATUS>GS_9002</STATUS>
-      <FUNCTION>ENTER</FUNCTION>
      </RSMPE_STAF>
      <RSMPE_STAF>
       <STATUS>GS_9002</STATUS>
@@ -315,7 +289,27 @@
       <OBJ_TYPE>B</OBJ_TYPE>
       <OBJ_CODE>000001</OBJ_CODE>
       <SUB_CODE>0001</SUB_CODE>
+      <MODAL>D</MODAL>
       <INT_NOTE>GUI Status Screen 9001</INT_NOTE>
+     </RSMPE_ATRT>
+     <RSMPE_ATRT>
+      <OBJ_TYPE>A</OBJ_TYPE>
+      <OBJ_CODE>000002</OBJ_CODE>
+      <MODAL>D</MODAL>
+      <INT_NOTE>GUI Status Screen 9002</INT_NOTE>
+     </RSMPE_ATRT>
+     <RSMPE_ATRT>
+      <OBJ_TYPE>P</OBJ_TYPE>
+      <OBJ_CODE>000002</OBJ_CODE>
+      <MODAL>D</MODAL>
+      <INT_NOTE>GUI Status Screen 9002</INT_NOTE>
+     </RSMPE_ATRT>
+     <RSMPE_ATRT>
+      <OBJ_TYPE>B</OBJ_TYPE>
+      <OBJ_CODE>000002</OBJ_CODE>
+      <SUB_CODE>0001</SUB_CODE>
+      <MODAL>D</MODAL>
+      <INT_NOTE>GUI Status Screen 9002</INT_NOTE>
      </RSMPE_ATRT>
     </DOC>
    </CUA>
